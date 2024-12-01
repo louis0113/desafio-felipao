@@ -19,13 +19,13 @@ function buscarNivel(limite){
         switch (true){
             case xp < 1000 :
                 buscarNivel(1)
-            break      
+            break;      
             case xp <= 2000:
                  buscarNivel(2)
-            break     
+            break;     
             case xp <= 5000:
                 buscarNivel(3)
-            break     
+            break;     
             case xp <= 7000:
                 buscarNivel(4)    
             break;    
