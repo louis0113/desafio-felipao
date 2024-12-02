@@ -38,7 +38,7 @@ function buscarNivel(limite){
             case xp <= 10000:
                 buscarNivel(7)
             break;
-            case xp > 10000:
+            default:
                 buscarNivel(8)      
         }
     
