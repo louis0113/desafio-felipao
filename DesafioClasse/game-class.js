@@ -8,11 +8,14 @@ for (i = 0; i < tiposClasses.length; i++) {
     console.log((i + 1) + "º Classe: " + tiposClasses[i] + "\n")
 }
 
+console.log("OBS.: Quando digitar a classe que seja da mesma forma acima!")
+
 const name = prompt("Digite seu nome: ")
 
 const age = Number(prompt("Digite sua idade: "))
 
-const classe = prompt("Digite sua classe: (Digite a classe da mesma forma apresentada nas opções)")
+
+const classe = prompt("Digite sua classe: ")
 
 class hero {
     constructor(nome, idade, tipo) {
@@ -47,7 +50,7 @@ function encontro() {
         heroi.atacar()
     } else {
         console.log("\nUm monstro hediondo atacou o herói " + name + "\n")
-        opcao = prompt("Você quer ataca-lo? (S/N)\n")
+        opcao = prompt("Você quer ataca-lo? (S/N) ")
         if (opcao === "S") {
             heroi.atacar()
             console.log("Voce ganhou do monstro e a missão foi um sucesso :)")
